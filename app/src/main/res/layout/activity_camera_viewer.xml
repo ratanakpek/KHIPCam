@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.longdo.mjpegviewer.MjpegView
+        android:id="@+id/mjpegview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/camera_viewer_content_padding"
+        android:paddingRight="@dimen/camera_viewer_content_padding"
+        android:paddingTop="@dimen/camera_viewer_content_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_gravity="top|left"
+                android:id="@+id/btnBack"
+                android:onClick="backPressed"
+                android:layout_width="@dimen/camera_viewer_image_view_size"
+                android:layout_height="@dimen/camera_viewer_image_view_size"
+                android:src="@drawable/back_btn"/>
+
+            <ImageView
+                android:layout_width="@dimen/camera_viewer_image_view_size"
+                android:layout_height="@dimen/camera_viewer_image_view_size"
+                android:src="@drawable/ic_record"
+                android:layout_gravity="top|right"
+                android:visibility="invisible"
+                android:id="@+id/imgRecord" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="left|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/camera_viewer_image_view_size"
+                android:layout_height="@dimen/camera_viewer_image_view_size"
+                android:id="@+id/btnZoomIn"
+                android:onClick="zoomIn"
+                android:src="@drawable/zoom_in_btn"/>
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="@dimen/camera_viewer_image_view_size"
+                android:layout_height="@dimen/camera_viewer_image_view_size"
+                android:id="@+id/btnZoomOut"
+                android:onClick="zoomOut"
+                android:src="@drawable/zoom_out_btn" />
+
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnCapture"
+                android:layout_width="@dimen/camera_viewer_image_view_size"
+                android:layout_height="@dimen/camera_viewer_image_view_size"
+                android:onClick="capture"
+                android:layout_gravity="bottom"
+                android:paddingBottom="5dp"
+                android:src="@drawable/capture_button"/>
+
+            <ImageView
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="bottom"
+                android:layout_width="@dimen/camera_viewer_record_image_view_size"
+                android:layout_height="@dimen/camera_viewer_record_image_view_size"
+                android:id="@+id/button_start_stop_record"
+                android:src="@drawable/start_record_video_button"/>
+
+        <com.jmedeisis.bugstick.Joystick
+            android:layout_marginBottom="10dp"
+            android:id="@+id/joystick"
+            android:alpha="0.8"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_base"
+            app:start_on_first_touch="true"
+            app:force_square="true"
+            app:motion_constraint="None"
+            android:layout_gravity="bottom|right"
+            >
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/joystick_controll"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:civ_border_width="1000dp"
+                app:civ_border_color="#14ed81"
+                android:src="@drawable/stop_record_video_button"/>
+        </com.jmedeisis.bugstick.Joystick>
+
+        <ProgressBar
+            android:id="@+id/progress_stream_viewer"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+</FrameLayout>

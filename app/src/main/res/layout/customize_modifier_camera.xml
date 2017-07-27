@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/ChooseManufacturer"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spManufacturer"
+        android:layout_weight="0.15"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:text="@string/ChooseModel"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.05" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spModel"
+        android:layout_weight="0.17"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:maxLength="24"
+        android:ems="10"
+        android:id="@+id/edCameraName"
+        android:hint="@string/CameraName"
+        android:layout_weight="0.05"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edSerialNumber"
+        android:layout_weight="0.03"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/SerialNumber" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:maxLength="15"
+        android:id="@+id/edIpAddress"
+        android:layout_weight="0.03"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/IPAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edRstpPort"
+        android:hint="@string/StreamPort" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edWebPort"
+        android:layout_weight="0.04"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/WebPort" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edUsername"
+        android:layout_weight="0.04"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/Username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edChPassword"
+        android:layout_weight="0.05"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/Password" />
+
+</LinearLayout>

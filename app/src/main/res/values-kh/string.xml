@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Home">ទំព័រដើម</string>
+    <string name="Video">វីដេអូ</string>
+    <string name="Image">រូបភាព</string>
+    <string name="Help">ជំនួយ</string>
+
+    <string name="Theme">ពណ៌ផ្ទៃ</string>
+    <string name="Configuration">ការកំណត់កាមេរ៉ា</string>
+
+
+    <string name="UserProfile">ព័ត៍មានអ្នកប្រើប្រាស់</string>
+    <string name="ManageCamera">គ្រប់គ្រងកាមេរ៉ា</string>
+    <string name="Setting">ការកំណត់</string>
+    <string name="Logout">ចេញពីគណនី</string>
+
+    <string name="ChooseLanguage">ជ្រើសរើសភាសា</string>
+
+    <string name="OK">យល់ព្រម</string>
+    <string name="Cancel">បោះបង់</string>
+
+    <string name="RestarttoApplyTheme">សូមបិទបើកកម្មវិធីដើម្បីអោយពណ៌កំណត់បានត្រឹមត្រូវ</string>
+    <string name="PleaseFillTheBlank">សូមបំពេញព័ត៍មាន</string>
+
+    <string name="ListCamera">បញ្ជីកាមេរ៉ា</string>
+
+    <string name="VendorCannotLoad">មិនអាចផ្ទុកទិន្នន័យរបស់ក្រុមហ៊ុនផលិត!</string>
+    <string name="ItLookLikeNotIP">វាដូចជាមិនមែនជា IP Address!</string>
+
+    <string name="ChooseManufacturer">ជ្រើសរើសក្រុមហ៊ុនផលិត</string>
+    <string name="ChooseModel">ជ្រើសរើសម៉ូដែល</string>
+    <string name="CameraName">ឈ្មោះកាមេរ៉ា</string>
+    <string name="SerialNumber">លេខកូដកាមេរ៉ា</string>
+    <string name="IPAddress">លេខ IP Address</string>
+    <string name="WebPort">លេខ Web​ Port</string>
+    <string name="StreamPort">លេខ Stream Port</string>
+    <string name="Username">ឈ្មោះអ្នកប្រើប្រាស់</string>
+    <string name="Password">លេខសម្ងាត់</string>
+
+    <string name="View">មើល</string>
+    <string name="Edit">កែរប្រែ</string>
+    <string name="CameraModifier">កែរប្រែ​កាមេរ៉ា</string>
+    <string name="Modifier">កែរប្រែ</string>
+    <string name="Remove">លុប</string>
+    <string name="RemoveCamera">លុបកាមេរ៉ា</string>
+    <string name="Dimmis">បោះបង់</string>
+
+    <string name="CannotGetUserData">មិនអាចទាញយកព៍ត៍មានរបស់អ្នកប្រើប្រាស់បាន</string>
+    <string name="SomethingWentWrong">មានបញ្ហាអ្វីមួយកើតឡើង!</string>
+
+    <string name="SendingEmail">កំពុងផ្ញើរអ៊ីមែល!</string>
+    <string name="MakeSureYouHadRegisteredAccount">សូមប្រាកដថាអ្នកធ្លាប់មានគណនីរួចហើយ!</string>
+    <string name="NetworkIsNotAvailable">មិនមានអ៊ីនធឺណិត!</string>
+
+    <string name="PasswordIsRequired">សូមបំពេញលេខសម្ងាត់!</string>
+    <string name="PasswordRequiredAtLeastLength8">លេខសម្ងាត់យ៉ាងតិច៨ខ្ទង់!</string>
+    <string name="PasswordIsNotMatched">លេខសម្ងាត់មិនត្រូវគ្នា!</string>
+    <string name="RetypYourPasswordHereToConfirm">សូមបំពេញលេខសម្ងាត់ម្តងទៀត!</string>
+
+    <string name="MakeSureEverythingIsCorrect">សូមប្រាកដថាគ្រប់យ៉ាងគឺត្រឹមត្រូវ!</string>
+    <string name="KeyIsNotCorrect">Key មិនត្រឹមត្រូវ!</string>
+    <string name="CameraIsNotReady">កាមេរ៉ាមិនទាន់បានផ្ទុក</string>
+    <string name="Saved">បានរក្សាទុក</string>
+    <string name="ProfilePicture">រូបភាពអ្នកប្រើប្រាស់</string>
+
+    <string name="PleaseTypeOldPassword">សូមបំពេញលេខសម្ងាត់ចាស់</string>
+    <string name="PleaseTypeNewPassword">សូមបំពេញលេខសម្ងាត់ថ្មី</string>
+    <string name="PleaseReTypeNewPassword">សូមបំពេញលេខសម្ងាត់ថ្មីម្តងទៀត</string>
+
+    <string name="EmailIsRequired">សូមបំពេញអ៊ីមែល</string>
+    <string name="EmailIsNotRegisterYetQuestion">មិនទាន់មានអ៊ីមែលនៅឡើយ?</string>
+
+    <string name="PleaseSelectYourImageProfile">សូមជ្រើសរើសរូបភាព</string>
+    <string name="InvalidUsername">ឈ្មោះអ្នកប្រើប្រាស់មិនត្រឹមត្រូវ</string>
+    <string name="EmailIsExisted">អ៊ីមែលមានរួចហើយ</string>
+    <string name="IncorrectEmailAddress">អ៊ីមែលមិនត្រឹមត្រូវ</string>
+    <string name="Missing">មិនមាន</string>
+    <string name="PleaseIndentifyEmailService">សូមផ្ទៀងផ្ទាត់អ៊ីមែលរបស់អ្នក</string>
+    <string name="ErrorMissingDotBeforeCom">មិនមានសញ្ញា (.) ពីមុខ com</string>
+    <string name="PleaseUploadImageByClickAvatarIcon">សូមចុចលើរូបភាពដើម្បីប្តូរ!</string>
+
+    <string name="SaveConfiguration">រក្សាទុកការកំណត់</string>
+    <string name="AddCamera">បន្ថែមកាមេរ៉ា</string>
+    <string name="AlwaysKeepInTouch">តែងតែនៅជាមួយអ្នក</string>
+    <string name="Language">ភាសាៈ </string>
+
+    <string name="Email">អុីមែល</string>
+
+    <string name="helpDes">
+        KH IPCam គឺជាប្រភេទកម្មវិធីដែលអនុញ្ញាតអោយលោកអ្នកអាចមើលសកម្មភាពទាន់ពេលវេលាដែលកំពុងតែកើតឡើងនៅលើស្មាតហ្វូនរបស់លោកអ្នក
+        មិនត្រឹមតែប៉ុណ្ណោះលោកអ្នកក៏អាចធ្វើការបញ្ជាកាមេរ៉ារបស់លោកអ្នកទៅតាមទិសដៅដែលលោកអ្នកចង់បាន ហើយលោកអ្នកអាចធ្វើការពង្រីកពង្រួមវីដេអូនោះបានផងដែរ។
+    </string>
+
+    <string name="ChangeUsername">ប្តូរឈ្មោះអ្នកប្រើប្រាស់</string>
+    <string name="Save">រក្សាទុក</string>
+    <string name="EditUsernameDes">សូមបំពេញឈ្មោះថ្មីហើយចុចប៊ូតុង រក្សាទុក</string>
+    <string name="ConfirmPassword">សូមវាយលេខសម្ងាត់ម្តងទៀត</string>
+    <string name="SignUp"><u>បង្កើតគណនីថ្មី</u></string>
+    <string name="HaventGotAnAccountYet">មិនទាន់មានគណនីមែនទេ?</string>
+    <string name="Or">ឬ</string>
+    <string name="Login">ចូលប្រើប្រាស់</string>
+    <string name="ConfirmCode">លេខកូដសម្រាប់បញ្ជាក់</string>
+    <string name="LetDoItAgainIfYouForget">សូមធ្វើវាម្តងទៀតប្រសិនបើជាអ្នកភ្លេច</string>
+    <string name="NewPassword">លេខសម្ងាត់ថ្មី</string>
+    <string name="RetypePassword">សូមវាយលេខសម្ងាត់ថ្មីម្តងទៀត</string>
+    <string name="Confirm">បញ្ជាក់</string>
+
+    <string name="FBConfirmPasswordDes">
+        យើងផ្តល់មុខងារពិសេសដល់លោកអ្នកដោយអនុញ្ញាតអោយលោកអ្នកអាចចូលប្រើកម្មវីធីរបស់យើងជាមួយនឹងគណនីរបស់ហ្វេសប៊ុកបានដោយមិនចាំបាច់បង្កើតគណនីថ្មីក៏បាន
+    </string>
+
+    <string name="ForgotPasswordDes">
+        សូមបំពេញនូវអុីមែលដែលលោកអ្នកបានប្រើនៅពេលបង្កើតគណនីដើម្បីអោយពួកយើងអាចផ្តល់នូវវីធីដើម្បីដាក់លេខសម្ងាត់ថ្មីបាន
+    </string>
+
+    <string name="SendLinkReset">ផ្ញើរកូដទៅកាន់អ៊ីមែល</string>
+
+    <string name="ForgotPassword"><u>អ្នកភ្លេចលេខសម្ងាត់មែនទេ?</u></string>
+    <string name="PasswordEditDes">សូមធ្វើការបំពេញព័ត៍មានអោយបានត្រឹមត្រូវហើយចុចប៊ូតុង រក្សាទុក</string>
+    <string name="BrowseYourImage">សូមជ្រើសរើសរូបភាព</string>
+    <string name="Camera">ថតកាមេរ៉ា</string>
+    <string name="ImageGallery">រូបភាពមានស្រាប់</string>
+    <string name="NoThanks">ទេអរគុណ</string>
+
+</resources>

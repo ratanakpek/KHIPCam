@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/frag_home"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.FragHomeScreen">
+
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/HomeRecyclerBackground"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="80"
+        android:id="@+id/home_recycler_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/button_switch_camera_container"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:background="@color/backgroundButoonSwitchCameraContainer"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/default_button_switch_layout_background_inactive"
+            android:layout_marginBottom="@dimen/margin_btn_switch_cam"
+            android:layout_marginTop="@dimen/margin_btn_switch_cam"
+            android:id="@+id/btnShowOneCamera"
+            android:textColor="@color/ButtonSwitchCameraTextColor"
+            android:text="1"
+            android:layout_width="@dimen/btn_show_cam_size"
+            android:layout_height="@dimen/btn_show_cam_size" />
+
+        <Button
+            android:textColor="@color/ButtonSwitchCameraTextColor"
+            android:background="@drawable/default_button_switch_layout_background_inactive"
+            android:layout_marginBottom="@dimen/margin_btn_switch_cam"
+            android:layout_marginTop="@dimen/margin_btn_switch_cam"
+            android:id="@+id/btnShowTwoCamera"
+            android:layout_marginLeft="10dp"
+            android:text="2"
+            android:layout_width="@dimen/btn_show_cam_size"
+            android:layout_height="@dimen/btn_show_cam_size" />
+
+        <ImageView
+            android:id="@+id/dot_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/dot"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <Button
+            android:textColor="@color/ButtonSwitchCameraTextColor"
+            android:layout_marginBottom="@dimen/margin_btn_switch_cam"
+            android:layout_marginTop="@dimen/margin_btn_switch_cam"
+            android:background="@drawable/default_button_switch_layout_background_inactive"
+            android:id="@+id/btnShowFourCamera"
+            android:text="4"
+            android:layout_width="@dimen/btn_show_cam_size"
+            android:layout_height="@dimen/btn_show_cam_size" />
+
+        <Button
+            android:textColor="@color/ButtonSwitchCameraTextColor"
+            android:background="@drawable/default_button_switch_layout_background_inactive"
+            android:layout_marginBottom="@dimen/margin_btn_switch_cam"
+            android:layout_marginTop="@dimen/margin_btn_switch_cam"
+            android:id="@+id/btnShowSixCamera"
+            android:layout_marginLeft="10dp"
+            android:text="9"
+            android:layout_width="@dimen/btn_show_cam_size"
+            android:layout_height="@dimen/btn_show_cam_size" />
+    </LinearLayout>
+
+</LinearLayout>

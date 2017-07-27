@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/app_bar_with_title_and_navigation" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="240dp"
+        android:src="@drawable/profile"
+        app:civ_fill_color="#32b8b7"
+        app:civ_border_width="2dp"
+        android:elevation="0dp"
+        android:onClick="Image"
+        android:layout_height="131dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:id="@+id/password"
+        android:text="@string/Password"
+        android:textAllCaps="false"
+        android:textColor="#9da8b9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@drawable/user_profile_shape"
+        android:drawableEnd="@drawable/ic_navigate_next_white_36dp"
+        android:onClick="editPass"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintRight_toRightOf="@+id/username"
+        app:layout_constraintLeft_toLeftOf="@+id/username" />
+
+    <Button
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:id="@+id/username"
+        android:text="@string/ChangeUsername"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#9da8b9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_profile_shape"
+        android:drawableEnd="@drawable/ic_navigate_next_white_36dp"
+        android:textSize="20dp"
+        android:onClick="editUser"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

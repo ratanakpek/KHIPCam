@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activitys.ConfigCameraActivity"
+    tools:showIn="@layout/activity_config_camera">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/frag_config_camera"
+            android:padding="20dp"
+            tools:context="com.kshrd.ipcam.fragment.FragConfigCamera">
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:hint="@string/ChooseManufacturer"
+                android:id="@+id/spinner_vendor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:hint="@string/ChooseModel"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:id="@+id/spinner_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:textColorHint="@color/TextColorHintCustomize"
+                android:textColor="@color/TextColorCustomize"
+                android:id="@+id/et_camera_name"
+                android:paddingLeft="@dimen/padding_component_config_camera"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:hint="@string/CameraName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textColorHint="@color/TextColorHintCustomize"
+                android:textColor="@color/TextColorCustomize"
+                android:id="@+id/et_serial"
+                android:paddingLeft="@dimen/padding_component_config_camera"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:hint="@string/SerialNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textColorHint="@color/TextColorHintCustomize"
+                android:textColor="@color/TextColorCustomize"
+                android:id="@+id/et_ip_address"
+                android:digits="0123456789."
+                android:inputType="number|numberDecimal"
+                android:paddingLeft="@dimen/padding_component_config_camera"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:hint="@string/IPAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColorHint="@color/TextColorHintCustomize"
+                android:textColor="@color/TextColorCustomize"
+                android:id="@+id/et_web_port"
+                android:inputType="number"
+                android:paddingLeft="@dimen/padding_component_config_camera"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:hint="@string/WebPort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColorHint="@color/TextColorHintCustomize"
+                android:textColor="@color/TextColorCustomize"
+                android:id="@+id/et_stream_port"
+                android:inputType="number"
+                android:paddingLeft="@dimen/padding_component_config_camera"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:hint="@string/StreamPort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColorHint="@color/TextColorHintCustomize"
+                android:textColor="@color/TextColorCustomize"
+                android:id="@+id/et_username"
+                android:paddingLeft="@dimen/padding_component_config_camera"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:hint="@string/Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:textColorHint="@color/TextColorHintCustomize"
+                android:textColor="@color/TextColorCustomize"
+                android:id="@+id/et_password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/padding_component_config_camera"
+                android:layout_marginTop="@dimen/margin_layout_config_camera"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

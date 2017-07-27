@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:banner="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.kshrd.ipcam.activitys.MainActivity">
+
+    <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="top|center"
+            android:layout_below="@+id/imgMainLogo"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:text="@string/AlwaysKeepInTouch"
+            android:textColor="@color/AppTextColor"
+            android:id="@+id/tvSlogant"
+            android:textStyle="normal|bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgMainLogo"
+        android:layout_width="127dp"
+        android:layout_height="118dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

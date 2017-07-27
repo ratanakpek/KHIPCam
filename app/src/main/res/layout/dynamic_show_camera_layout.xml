@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/show_dynamic_camera_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/AppBackgroundColor"
+    android:layout_margin="1dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/camera_layout_container"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical">
+
+            <com.longdo.mjpegviewer.MjpegView
+                android:layout_gravity="center"
+                android:id="@+id/MJPEG_VIEW_HOME"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/camera_layout_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_add_and_stream_camera"
+            android:layout_gravity="center"
+            android:src="@drawable/add_more_camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/progress_stream_home"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="16dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/ic_launcher"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="296dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="@string/Username"
+            android:inputType="textPersonName"
+            android:textColor="@color/Text"
+            android:textColorHint="@color/Text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_profile" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/Text"
+            android:textColorHint="@color/Text"
+            app:layout_constraintLeft_toLeftOf="@+id/edit_username"
+            app:layout_constraintRight_toRightOf="@+id/edit_username"
+            app:layout_constraintTop_toBottomOf="@+id/edit_username" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:textColor="@color/Text"
+            android:textColorHint="@color/Text"
+            app:layout_constraintLeft_toLeftOf="@+id/edit_email"
+            app:layout_constraintRight_toRightOf="@+id/edit_email"
+            app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
+        <EditText
+            android:id="@+id/edit_confirm_password"
+            android:layout_width="0dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/ConfirmPassword"
+            android:inputType="textPassword"
+            android:textColor="@color/Text"
+            android:textColorHint="@color/Text"
+            app:layout_constraintLeft_toLeftOf="@+id/edit_password"
+            app:layout_constraintRight_toRightOf="@+id/edit_password"
+            app:layout_constraintTop_toBottomOf="@+id/edit_password" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/default_button_gradient"
+            android:onClick="sign"
+            android:text="@string/SignUp"
+            android:textColor="#ffffff"
+            app:layout_constraintLeft_toLeftOf="@+id/edit_confirm_password"
+            app:layout_constraintRight_toRightOf="@+id/edit_confirm_password"
+            app:layout_constraintTop_toBottomOf="@+id/edit_confirm_password" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="0.5dp"
+                /><!--android:color="#080a0c"-->
+            <corners
+                android:bottomLeftRadius="18dp"
+                android:bottomRightRadius="18dp"/>
+            <solid android:color="@color/DEFAULT_IMAGE_EDIT_BUTTON_BACKGROUND"/>
+        </shape>
+
+
+    </item>
+</selector>

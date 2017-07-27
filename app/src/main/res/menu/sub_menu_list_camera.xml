@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.AppCompat"
+    >
+
+    <item android:title="@string/View" android:id="@+id/pop_view"/>
+    <item android:title="@string/Edit" android:id="@+id/pop_edit"/>
+    <item android:title="@string/Remove" android:id="@+id/pop_remove"/>
+</menu>

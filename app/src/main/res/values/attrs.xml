@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyVideoView">
+
+        <attr name="cv_source" format="string" />
+
+        <attr name="cv_leftAction" format="enum">
+            <enum name="none" value="0" />
+            <enum name="restart" value="1" />
+            <enum name="retry" value="2" />
+        </attr>
+
+        <attr name="cv_rightAction" format="enum">
+            <enum name="none" value="3" />
+            <enum name="submit" value="4" />
+            <enum name="customLabel" value="5" />
+        </attr>
+
+        <attr name="cv_customLabelText" format="string" />
+        <attr name="cv_retryText" format="string" />
+        <attr name="cv_submitText" format="string" />
+        <attr name="cv_bottomText" format="string" />
+
+        <attr name="cv_restartDrawable" format="reference" />
+        <attr name="cv_playDrawable" format="reference" />
+        <attr name="cv_pauseDrawable" format="reference" />
+
+        <attr name="cv_hideControlsOnPlay" format="boolean" />
+        <attr name="cv_autoPlay" format="boolean" />
+
+        <attr name="cv_disableControls" format="boolean" />
+
+        <attr name="cv_themeColor" format="color" />
+
+        <attr name="cv_autoFullscreen" format="boolean" />
+
+        <attr name="cv_loop" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

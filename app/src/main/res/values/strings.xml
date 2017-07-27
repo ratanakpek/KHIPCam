@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">IPCAM</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+    <string name="facebook_app_id">1672152039748969</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+
+    <string name="cv_submit">SUBMIT</string>
+    <string name="cv_retry">RETRY</string>
+
+
+    <string name="Home">Home</string>
+    <string name="Video">Video</string>
+    <string name="Image">Image</string>
+    <string name="Help">Help</string>
+
+    <string name="Theme">Theme</string>
+    <string name="Configuration">Configuration</string>
+
+
+    <string name="UserProfile">User​ Profile</string>
+    <string name="ManageCamera">Manage Camera</string>
+    <string name="Setting">Setting</string>
+    <string name="Logout">Logout</string>
+
+    <string name="ChooseLanguage">Choose Language</string>
+
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="RestarttoApplyTheme">Restart to apply theme correctly!</string>
+    <string name="PleaseFillTheBlank">Please fill the blank!</string>
+
+    <string name="ListCamera">List Camera</string>
+
+    <string name="VendorCannotLoad">Vender cannot load!</string>
+    <string name="ItLookLikeNotIP">It look like it is not IP Address format!</string>
+
+    <string name="ChooseManufacturer">Choose Manufacturer</string>
+    <string name="ChooseModel">Choose Model</string>
+    <string name="CameraName">Camera Name</string>
+    <string name="SerialNumber">Serial Number</string>
+    <string name="IPAddress">IP Address</string>
+    <string name="WebPort">Web Port</string>
+    <string name="StreamPort">Stream Port</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+
+    <string name="View">View</string>
+    <string name="Edit">Edit</string>
+    <string name="CameraModifier">Camera Modifier</string>
+    <string name="Modifier">Modifier</string>
+    <string name="Remove">Remove</string>
+    <string name="RemoveCamera">Remove Camera</string>
+    <string name="Dimmis">Dimmis</string>
+
+    <string name="CannotGetUserData">Cannot load User Data!</string>
+    <string name="SomethingWentWrong">Something Went Wrong!</string>
+
+    <string name="SendingEmail">Sending Email</string>
+    <string name="MakeSureYouHadRegisteredAccount">Make sure you had registered account!</string>
+    <string name="NetworkIsNotAvailable">Network is not available!</string>
+
+    <string name="PasswordIsRequired">Password Is Required!</string>
+    <string name="PasswordRequiredAtLeastLength8">Password Is Required At Least 8!</string>
+    <string name="PasswordIsNotMatched">Password is not matched!</string>
+    <string name="RetypYourPasswordHereToConfirm">Retyp Your Password Here To Confirm!</string>
+
+    <string name="MakeSureEverythingIsCorrect">Make Sure Everything is correct!</string>
+    <string name="KeyIsNotCorrect">Key is not correct!</string>
+    <string name="CameraIsNotReady">Camera is not loaded yet</string>
+    <string name="Saved">Saved</string>
+    <string name="ProfilePicture">Profile Picture</string>
+
+    <string name="PleaseTypeUsername">Please type username</string>
+    <string name="PleaseTypeOldPassword">Please type old password</string>
+    <string name="PleaseTypeNewPassword">Please type new password</string>
+    <string name="PleaseReTypeNewPassword">Please retype new password</string>
+
+    <string name="EmailIsRequired">Email is required</string>
+    <string name="EmailIsNotRegisterYetQuestion">Email is not register ,yet?</string>
+
+    <string name="PleaseSelectYourImageProfile">Please Select your Image Profile</string>
+    <string name="InvalidUsername">Invalid Username</string>
+    <string name="EmailIsExisted">Email is existed!</string>
+    <string name="IncorrectEmailAddress">Incorrect email address</string>
+    <string name="Missing">Missing</string>
+    <string name="PleaseIndentifyEmailService">Please indentify email service provider</string>
+    <string name="ErrorMissingDotBeforeCom">Error Missing dot(.) before com</string>
+    <string name="PleaseUploadImageByClickAvatarIcon">Please Upload Image by click avatar icon!</string>
+
+    <string name="SaveConfiguration">Save Configuration</string>
+    <string name="AddCamera">Add Camera</string>
+    <string name="AlwaysKeepInTouch">Always keep in touch</string>
+    <string name="Language">Language: </string>
+
+    <string name="Email">Email</string>
+
+    <string name="helpDes">IP Camera App is created
+        for using with Android device. With this
+        app you can stream and controll your camera
+        with realtime service.
+    </string>
+
+    <string name="ChangeUsername">Change Username</string>
+    <string name="Save">Save</string>
+    <string name="EditUsernameDes">In here you change your name and then click buton Save</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="SignUp"><u>Sign Up</u></string>
+    <string name="HaventGotAnAccountYet">Havent got an account yet?</string>
+    <string name="Or">OR</string>
+    <string name="Login">Log In</string>
+    <string name="ConfirmCode">Confirm Code</string>
+    <string name="LetDoItAgainIfYouForget">Let do it again if you forget</string>
+    <string name="NewPassword">New Password</string>
+    <string name="RetypePassword">Retype Password</string>
+    <string name="Confirm">Confirm</string>
+    <string name="FBConfirmPasswordDes">We make you awesome sign in for ipcam app with second login feature , you no need to register again</string>
+    <string name="ForgotPasswordDes">Enter your email address associate with your account and then well send you back to reset your password.</string>
+    <string name="SendLinkReset">Send Link Reset</string>
+
+    <string name="ForgotPassword"><u>Forgot Password?</u></string>
+    <string name="PasswordEditDes">In here you can change your password by adding new password and then click button Save</string>
+    <string name="BrowseYourImage">Browse Your Image</string>
+    <string name="Camera">Camera</string>
+    <string name="ImageGallery">Image Gallery</string>
+    <string name="NoThanks">No Thanks</string>
+
+</resources>

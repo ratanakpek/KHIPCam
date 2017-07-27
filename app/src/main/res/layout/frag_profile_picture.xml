@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/app_bar_with_full_option" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        app:civ_fill_color="#32b8b7"
+        app:civ_border_width="2dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="112dp"
+        app:layout_constraintHorizontal_bias="0.66" />
+
+    <TextView
+        android:id="@+id/text_des"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/BrowseYourImage"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#36afac"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/profile_pic"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.66" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_height="52dp"
+        android:textAllCaps="false"
+        android:textColor="#36afac"
+        android:text="@string/Camera"
+        android:textSize="26dp"
+        android:background="@drawable/default_image_edit_button_background"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/text_des"
+        app:layout_constraintTop_toBottomOf="@+id/text_des"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/text_des"
+        android:layout_width="290dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/img_gallery"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:textAllCaps="false"
+        android:textColor="#36afac"
+        android:text="@string/ImageGallery"
+        android:textSize="26dp"
+        android:background="@drawable/default_image_edit_button_background"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/camera"
+        app:layout_constraintTop_toBottomOf="@+id/camera"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/camera" />
+
+    <Button
+        android:id="@+id/no_thank"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:textAllCaps="false"
+        android:textColor="#36afac"
+        android:text="@string/NoThanks"
+        android:textSize="26dp"
+        android:background="@drawable/default_image_edit_cancel_button_background"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/img_gallery"
+        app:layout_constraintTop_toBottomOf="@+id/img_gallery"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/img_gallery" />
+
+</android.support.constraint.ConstraintLayout>

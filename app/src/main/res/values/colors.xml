@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3146ba</color>
+    <color name="colorPrimaryDark">#031d29</color>
+    <color name="colorAccent">#1a7b95</color>
+    <color name="bottomNavigationAndActionBarColor">#35445a</color>
+    <color name="Text">#b1bdcf</color>
+    <color name="ButtonSwitchCameraTextColor">#FAFAFA</color>
+    <color name="backgroundColor">#063146</color>
+    <color name="backgroundCardColor">#242e49</color>
+    <color name="backgroundButoonSwitchCameraContainer">#657076</color>
+    <color name="TextColorCustomize">#FAFAFA</color>
+    <color name="TextColorHintCustomize">#6f7d94</color>
+
+    <color name="BottomNavigationTextColor">#54f62b</color>
+    <color name="BottomNavigationInActiveTextColor">#747474</color>
+
+    <color name="AppTextColor">#04c7cb</color>
+    <!--<color name="AppBackgroundColor">#78909C</color>-->
+    <color name="DrawerHeaderBackgroundColor">#242e42</color>
+    <color name="DrawerBodyBackgroundColor">#37474F</color>
+
+    <color name="AppBackgroundColor">#3c4c65</color>
+    <color name="borderAndTitlecolor">#FF17CBC7</color>
+    <color name="AppTextColorTwo">#9da8b9</color>
+    <color name="ListCameraTextColor">#FF17CBC7</color>
+    <color name="HomeRecyclerBackground">#FAFAFA</color>
+
+
+
+
+
+
+
+
+
+    <!--**********************************CUSTOM STYLE ***********************************-->
+
+    <color name="WHITE">#FAFAFA</color>
+
+
+    <!--   1.DEFAULT STYLE  -->
+    <color name="DEFAULT_MAIN_COLOR">#04c7cb</color>
+
+        <!--###  Home Screen ###-->
+        <color name="DEFAULT_ACTION_BAR_COLOR">#35445a</color>
+        <color name="DEFAULT_BACK_NAVIGATION_COLOR">@color/DEFAULT_MAIN_COLOR</color>
+        <color name="DEFAULT_TOOLBAR_TITLE_COLOR">@color/DEFAULT_MAIN_COLOR</color>
+        <color name="DEFAULT_OPTION_MENU_COLOR">@color/DEFAULT_MAIN_COLOR</color>
+
+        <color name="DEFAULT_NAVIGATION_HEADER_COLOR">#242e42</color>
+        <color name="DEFAULT_USERNAME_COLOR">@color/WHITE</color>
+        <color name="DEFAULT_USER_EMAIL_COLOR">@color/WHITE</color>
+
+        <color name="DEFAULT_NAVIGATION_BODY_MENU_COLOR">#37474F</color>
+        <color name="DEFAULT_NAVIGATION_ITEM_COLOR">@color/DEFAULT_MAIN_COLOR</color>
+
+        <color name="DEFAULT_BOTTOM_NAVIGATION_BACKGROUND">#35445a</color><!---->
+        <color name="DEFAULT_BOTTOM_NAVIGATION_TEXT_COLOR">@color/DEFAULT_MAIN_COLOR</color>
+        <color name="DEFAULT_BOTTOM_NAVIGATION_TEXT_INACTIVE_COLOR">#747474</color>
+
+        <color name="DEFAULT_WINDOW_COLOR">#063146</color>
+
+        <color name="DEFAULT_BUTTON_SWITCH_LAYOUT_CONTAINER_COLOR">#3c4c65</color>
+        <color name="DEFAULT_BUTTON_SWITCH_LAYOUT_TEXT_COLOR">@color/WHITE</color>
+        <color name="DEFAULT_BUTTON_SWITCH_LAYOUT_BACKGROUND">@color/DEFAULT_MAIN_COLOR</color>
+
+        <color name="DEFAULT_CARD_CAMERA_BACKGROUND_COLOR">@color/DEFAULT_ACTION_BAR_COLOR</color>
+
+
+        <!--###  Configuration Screen ###-->
+        <color name="DEFAULT_TEXT_HINT_COLOR">#6f7d94</color>
+        <color name="DEFAULT_TEXT_COLOR">#FAFAFA</color>
+        <color name="DEFAULT_CONFIG_SPINNER_ARROW_COLOR">@color/WHITE</color>
+
+        <!--###  Profile Screen ###-->
+        <color name="DEFAULT_PROFILE_CIRCLE_IMAGE_BORDER_COLOR">#b1bdcf</color>
+        <color name="DEFAULT_IMAGE_EDIT_BUTTON_BACKGROUND">#415774</color>
+
+
+
+
+
+    <!--   2.LIGHT BLUE STYLE  -->
+    <color name="BLUE_LIGHT_MAIN_COLOR">#03A9F4</color>
+
+        <!--###  Home Screen ###-->
+        <color name="BLUE_ACTION_BAR_COLOR">@color/BLUE_LIGHT_MAIN_COLOR</color>
+        <color name="BLUE_BACK_NAVIGATION_COLOR">@color/WHITE</color>
+        <color name="BLUE_TOOLBAR_TITLE_COLOR">@color/WHITE</color>
+        <color name="BLUE_OPTION_MENU_COLOR">@color/WHITE</color>
+
+        <color name="BLUE_NAVIGATION_HEADER_COLOR">@color/BLUE_LIGHT_MAIN_COLOR</color>
+        <color name="BLUE_USERNAME_COLOR">@color/WHITE</color>
+        <color name="BLUE_USER_EMAIL_COLOR">@color/WHITE</color>
+
+        <color name="BLUE_NAVIGATION_BODY_MENU_COLOR">@color/WHITE</color>
+        <color name="BLUE_NAVIGATION_ITEM_COLOR">@color/BLUE_LIGHT_MAIN_COLOR</color>
+
+        <color name="BLUE_BOTTOM_NAVIGATION_BACKGROUND">@color/BLUE_LIGHT_MAIN_COLOR</color><!---->
+        <color name="BLUE_BOTTOM_NAVIGATION_TEXT_COLOR">@color/WHITE</color>
+        <color name="BLUE_BOTTOM_NAVIGATION_TEXT_INACTIVE_COLOR">#37474F</color>
+
+        <color name="BLUE_WINDOW_COLOR">@color/WHITE</color>
+
+        <color name="BLUE_BUTTON_SWITCH_LAYOUT_CONTAINER_COLOR">#105e81</color>
+        <color name="BLUE_BUTTON_SWITCH_LAYOUT_TEXT_COLOR">@color/WHITE</color>
+        <color name="BLUE_BUTTON_SWITCH_LAYOUT_BACKGROUND">@color/BLUE_LIGHT_MAIN_COLOR</color>
+
+        <color name="BLUE_CARD_CAMERA_BACKGROUND_COLOR">#103c50</color>
+
+        <!--###  Configuration Screen ###-->
+        <color name="BLUE_TEXT_HINT_COLOR">#6f7d94</color>
+        <color name="BLUE_TEXT_COLOR">#101010</color>
+        <color name="BLUE_CONFIG_SPINNER_ARROW_COLOR">#101010</color>
+
+        <!--###  Profile Screen ###-->
+        <color name="BLUE_PROFILE_CIRCLE_IMAGE_BORDER_COLOR">@color/BLUE_LIGHT_MAIN_COLOR</color>
+        <color name="BLUE_IMAGE_EDIT_BUTTON_BACKGROUND">#0071A2</color>
+
+    <!--   3.NIGHT MODE STYLE  -->    <!--Dark grey   222222 -->  <!--Light Gray 666666-->
+    <color name="NIGHT_MODE_MAIN_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color><!--293339 cute-->
+    <color name="NIGHT_MODE_CONTENT_COLOR">#6f7d94</color><!--cbe6e2-->
+    <color name="NIGHT_MODE_BAR_COLOR">#161B22</color><!--cbe6e2--><!--223344 also cute.-->
+
+    <!--###  Home Screen ###-->
+    <color name="NIGHT_MODE_ACTION_BAR_COLOR">@color/NIGHT_MODE_BAR_COLOR</color>
+    <color name="NIGHT_MODE_BACK_NAVIGATION_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+    <color name="NIGHT_MODE_TOOLBAR_TITLE_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+    <color name="NIGHT_MODE_OPTION_MENU_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+
+    <color name="NIGHT_MODE_NAVIGATION_HEADER_COLOR">@color/NIGHT_MODE_BAR_COLOR</color>
+    <color name="NIGHT_MODE_USERNAME_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+    <color name="NIGHT_MODE_USER_EMAIL_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+
+    <color name="NIGHT_MODE_NAVIGATION_BODY_MENU_COLOR">@color/NIGHT_MODE_WINDOW_COLOR</color>
+    <color name="NIGHT_MODE_NAVIGATION_ITEM_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+
+    <color name="NIGHT_MODE_BOTTOM_NAVIGATION_BACKGROUND">@color/NIGHT_MODE_BAR_COLOR</color><!---->
+    <color name="NIGHT_MODE_BOTTOM_NAVIGATION_TEXT_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+    <color name="NIGHT_MODE_BOTTOM_NAVIGATION_TEXT_INACTIVE_COLOR">#577280</color>
+
+    <color name="NIGHT_MODE_WINDOW_COLOR">#11141A</color><!--223344--><!--202530-->
+
+    <color name="NIGHT_MODE_BUTTON_SWITCH_LAYOUT_CONTAINER_COLOR">#111c28</color>
+    <color name="NIGHT_MODE_BUTTON_SWITCH_LAYOUT_TEXT_COLOR">@color/WHITE</color>
+    <color name="NIGHT_MODE_BUTTON_SWITCH_LAYOUT_BACKGROUND">@color/NIGHT_MODE_MAIN_COLOR</color>
+
+    <color name="NIGHT_MODE_CARD_CAMERA_BACKGROUND_COLOR">#0b141d</color>
+
+    <!--###  Configuration Screen ###-->
+    <color name="NIGHT_MODE_TEXT_HINT_COLOR">#696969</color><!--6f7d94 cute-->
+    <color name="NIGHT_MODE_TEXT_COLOR">@color/NIGHT_MODE_CONTENT_COLOR</color>
+    <color name="NIGHT_MODE_CONFIG_SPINNER_ARROW_COLOR">#696969</color>
+
+    <!--###  Profile Screen ###-->
+    <color name="NIGHT_MODE_PROFILE_CIRCLE_IMAGE_BORDER_COLOR">@color/NIGHT_MODE_MAIN_COLOR</color>
+    <color name="NIGHT_MODE_IMAGE_EDIT_BUTTON_BACKGROUND">#3b4346</color>
+
+
+
+
+</resources>
